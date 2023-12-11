@@ -3,7 +3,7 @@ import pickle
 
 class Model():
     
-    def carrega_modelo(self,path):
+    def carrega_modelo(path):
         """
         Carrega o modelo realizado no colab
         """
