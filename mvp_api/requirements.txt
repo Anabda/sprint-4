@@ -1,0 +1,17 @@
+Flask
+Flask-Cors
+flask-openapi3
+flask-restx
+Flask-SQLAlchemy
+greenlet
+pydantic
+pytz
+SQLAlchemy
+SQLAlchemy-Utils
+nose2
+typing_extensions
+scikit-learn
+pandas
+numpy
+matplotlib
+pytest

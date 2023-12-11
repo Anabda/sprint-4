@@ -1,0 +1,107 @@
+    body,
+    ul,
+    li {
+        font-family: tahoma;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(235, 83, 255);
+    }
+
+    header {
+        background-color: rgb(235, 83, 255);
+        text-align: center;
+        position: relative;
+        width: 100%;
+    }
+
+    .box {
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 20px;
+        margin: 2%;
+        display: flex;
+    }
+
+    .title {
+        color: rgb(255, 255, 255);
+        width: 100%;
+        background-color: rgb(235, 83, 255);
+        display: inline-block;
+        padding: 2px 0px;
+        position: sticky;
+        top: 0px;
+    }
+
+    /* 
+    .banner {
+        height: 150px;
+        overflow: hidden;
+    } 
+
+    .banner img {
+        margin: 0px 0px 0px 0px;
+        width: 100%;
+    } */
+
+    .fields {
+        padding: 0px;
+        color: white;
+        justify-content: space-between;
+        align-items: normal;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .newItemField {
+        margin: 0;
+        border: 1px solid rgb(65, 65, 65);
+        padding: 10px;
+        font-size: 16px;
+        margin: 1% 5% 1% 5%;
+        -webkit-text-fill-color: rgb(72, 72, 72);
+    }
+
+    .newItemFieldError {
+        margin: 0;
+        border: 1px solid rgb(218, 1, 1);
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .addBtn {
+        padding: 1% 5%;
+        background-color: rgb(151, 0, 171);
+        color: white;
+        text-align: center;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+        border-radius: 1px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 3%;
+    }
+
+    .addBtn:hover {
+        background-color: rgb(100, 0, 113);
+        color: white;
+    }
+
+    .fields{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .infoMessage {
+        text-align: left;
+        position: relative;
+        margin-left: 2%;
+        width:fit-content;
+    }
+    .textLabel {
+        color: rgb(114, 114, 114);
+        font-size: 13px;
+        text-align: left;
+        text-indent: 4%;
+    }

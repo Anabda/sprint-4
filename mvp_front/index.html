@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Risco cardíaco</title>
+</head>
+
+<body>
+
+    <!-- Cabeçalho de informações do sistema -->
+    <header>
+        <div class="title">
+            <h2>Risco cardíaco</h2>
+        </div>
+        <!--
+        <div class="banner">
+            <img src="Images/eletronicos-fundo.jpg"
+                alt="y">
+        </div> -->
+    </header>
+    <section class="newItem">
+        <div class="box">
+            <div class="fields">
+                <div class="textLabel">CPF</div>
+                <input type="text" class="newItemField" id="CPF" placeholder="CPF (somente números)">
+                <div class="textLabel">Idade</div>
+                <input type="text" class="newItemField" id="Age" placeholder="Idade (anos)">
+                <div class="textLabel">Sexo</div>
+                <select class="newItemField" id="Sex">
+                    <option value="" disabled selected hidden>Gênero</option>
+                    <option value="1" >Masculino</option>
+                    <option value="0">Feminino</option>
+                </select>
+                <div class="textLabel">Tipo de dor no peito</div>
+                <select class="newItemField" id="Pain">
+                    <option value="" disabled selected hidden>Tipo de dor no peito</option>
+                    <option value="1">Angina típica</option>
+                    <option value="2">Angina atípica</option>
+                    <option value="3">Não angina</option>
+                    <option value="4">Assíntona</option>
+                </select>
+                <div class="textLabel">Pressão</div>
+                <input type="text" class="newItemField" id="Pressure" placeholder="Pressão (mmHg)">
+                <div class="textLabel">Colesterol</div>
+                <input type="text" class="newItemField" id="Cholesterol" placeholder="Colesterol (mg/dL)">
+            </div>
+            <div class="fields">
+                    <div class="textLabel">Nível de açúcar no sangue:</div>
+                    <select class="newItemField" id="Sugar">
+                    <option value="" disabled selected hidden>Nível de açúcar no sangue (mg/dL)</option>
+                    <option value="1">Acima de 120</option>
+                    <option value="0">Abaixo de 120</option>
+                </select>
+                <div class="textLabel">Eletrocardiograma</div>
+                <select class="newItemField" id="ECG">
+                    <option value="" disabled selected hidden>Eletrocardiograma</option>
+                    <option value="0">Normal</option>
+                    <option value="1">Anormalidade ST-T</option>
+                    <option value="2">Hipertrofia ventricular esquerda</option>
+                </select>
+                <div class="textLabel">Batimentos cardíacos</div> 
+                <input type="text" class="newItemField" id="heart" placeholder="Batimentos cardíacos (bpm)">
+                <div class="textLabel">Possui angina?</div>
+                <select class="newItemField" id="angina">
+                    <option value="" disabled selected hidden>Possui angina?</option>
+                    <option value="1">Sim</option>
+                    <option value="0">Não</option>
+                </select>
+                <div class="textLabel">Redução de ST</div>
+                <input type="text" class="newItemField" id="stLow" placeholder="Redução de ST">
+                <div class="textLabel">ST exercício</div>
+                <select class="newItemField" id="stPeak">
+                    <option value="" disabled selected hidden>ST exercício</option>
+                    <option value="1">Subindo</option>
+                    <option value="2">Constante</option>
+                    <option value="3">Abaixando</option>
+                </select>
+            </div>
+        </div> 
+        <div>
+            <div class="infoMessage" id="Resposta">Preencha as informações para descobrir se o paciente possui problema no coração</div>
+        </div>
+        <button onclick=newItem() id="saveChanges" class="addBtn">Enviar</button>        
+    </section>
+    <script src="scripts.js"></script>
+
+</body>
+</html>
