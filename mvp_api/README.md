@@ -1,5 +1,6 @@
 # Sobre o projeto
-O projeto tem como objetivo predizer se um paciente possui problemas cardíacos a partir de dados de sua saúde. O que cada campo significa pode ser encontrado no arquivo Dataset Description.png
+O projeto tem como objetivo predizer se um paciente possui problemas cardíacos a partir de dados de sua saúde. O que cada campo significa pode ser encontrado no arquivo Dataset Description.png.
+O arquivo realizado no colab está dentro da pasta Dataset com o nome Dataset.ipynb
 
 # Como executar
 
