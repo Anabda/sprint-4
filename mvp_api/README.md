@@ -1,6 +1,7 @@
 # Sobre o projeto
 O projeto tem como objetivo predizer se um paciente possui problemas cardíacos a partir de dados de sua saúde. O que cada campo significa pode ser encontrado no arquivo Dataset Description.png.
 O arquivo realizado no colab está dentro da pasta Dataset com o nome Dataset.ipynb
+Para realizar a parte de salvar o arquivo pkl a partir do google colab na pasta ml_model, essa parte do código vai dar erro no google colab por conta do nome da pasta. Caso o arquivo .ipynb seja executado dentro do visual studio a execução ocorrerá sem erros.
 
 # Como executar
 
